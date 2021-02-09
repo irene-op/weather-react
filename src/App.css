@@ -1,38 +1,132 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 80px 20% 80px;
+  margin-top: 80px;
+  border-color: rgb(31, 41, 130);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 40px;
+  text-align: center;
+  background: white;
+}
+h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+  text-align: center;
+  font-weight: bold;
+  list-style: none;
+  position: relative;
+  left: -25px;
+}
+form input {
+  width: 150px;
+  border-radius: 5px;
+}
+footer {
+  font-size: small;
+}
+.container {
+  background: rgba(156, 181, 219, 0.151);
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.temp-place-search {
+  margin: auto 25px;
+}
+.current-col {
+  width: 218px;
+}
+.location-temp {
+  margin: 20px 0 0 0;
+}
+.buttons {
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 150px;
+}
+.temp-units {
+  font-size: 20px;
+}
+.forecast {
+  border-top: darkblue;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-style: solid;
+  padding: 20px 20px 0;
+  margin: 0 20px 0;
+}
+.current-weather {
+  margin: auto 40px;
+}
+.temp-units {
+  position: relative;
+  top: -22px;
+}
+.low-high {
+  border-top: teal;
+  border-bottom: teal;
+  border-left: transparent;
+  border-right: transparent;
+  border-style: solid;
+  margin: auto 10px;
+}
+.icons img {
+  width: 50px;
+  height: 50px;
+}
+.five-days {
+  border: cornflowerblue;
+  border-style: solid;
+  border-radius: 10px;
+  margin: auto 8px;
+  padding-top: 5px;
+}
+.five-day-row {
+  margin: auto 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#city-input {
+  width: 200px;
+}
+#current-temp {
+  font-size: 50px;
+}
+#current-temp-emoji {
+  font-size: 60px;
+}
+#date-time {
+  /* border: red solid; */
+}
+#current-conditions {
+  /* border: solid red; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search-city {
+  margin-top: 25px;
+}
+#city-country {
+  margin-top: 20px;
+}
+
+#description {
+  text-transform: capitalize;
+  position: relative;
+  top: 35px;
 }
